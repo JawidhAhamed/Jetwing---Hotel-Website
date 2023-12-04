@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html, body{
+     
+	height: 100%;
+	
+	
+    
+}
+.page-wrapper{
+    height: 100%;
+}
+
+
+.logo img{
+ 
+    display: block;
+    width: 100px;
+    height: 80px;
+   
+   
+ }
+ .title h2{
+    color: #0b5592;
+    margin: .2rem;
+    font-family: 'Nerko One', cursive;
+}
+
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:#1a1002;
+    opacity: 0.8;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+.navlinks ul{
+     display: flex;
+     margin: 0;
+     padding: 0;
+   
+
+}
+.navlinks li a{
+    color: rgb(255, 254, 251);
+    text-decoration: none ;
+    font-size: 14px;
+    padding: 14px 16px;
+    display: block;
+}
+.navlinks li{
+    list-style: none;
+
+    
+    
+}
+.navlinks li:hover{
+    background-color:#1b0202;
+}
+.toggle-button{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30px;
+    height:21px;
+}
+.toggle-button .bars{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+@media (max-width: 600px){
+    .toggle-button{
+        display: flex;
+    }
+    .navlinks{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .navlinks ul{
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+    .navlinks li{
+        text-align: center;
+    }
+    .navlinks li a{
+        padding: .5rem 1rem;
+    }
+    .navlinks.active{
+        display: flex;
+    }
+
+   
+}
+.bg-img {
+	
+	background-image: url("Pool.jpg");
+   
+  
+	min-height: 850px;
+  
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+.container{
+	align-items: center;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #130f40;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border:1px solid silver;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background:#1A237E;
+	border-radius: 3px;
+	border:1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button : hover{
+	background:#151c6a;
+}
+
+
+
+.footer{
+    width: 100%;
+    background: #012b41;
+    display: block;
+
+
+}
+.inner-footer{
+    width:95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    
+    
+}
+.footer-items{
+    width:25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-items h1{
+    padding: 10px 0; 
+    font-size:25px;
+    color: rgb(79, 161, 228);
+    font-family: 'Nerko One', cursive;
+   
+
+}
+.footer-items h2{
+    padding: 10px;
+    font-size:25px;
+    color: rgb(79, 161, 228);
+    font-family: 'Archivo', sans-serif;
+    
+    
+   
+   
+
+}
+.footer-items p{
+    text-align: justify;
+    font-size:16px;
+    color: grey;
+    line-height: 25px;
+}
+.border{
+    height: 2px;
+    width: 40px;
+}
+
+.footer-items ul{
+    list-style: none;
+    color:#fff;
+    font-size:15px;
+    letter-spacing: .5px;
+}
+
+.footer-items ul a{
+   text-decoration: none;
+   outline: none;
+   color: #fff;
+   transition: 0.3s;
+}
+
+.footer-items ul a:hover{
+   color:#58b6db;
+ }
+ 
+.footer-items ul li{
+    margin:10px 0;
+    height: 25px;
+
+}
+.footer-items ul li i{
+    margin-right: 20px;
+
+}
+.social{
+    width:100%;
+    color:#fff;
+    text-align: center;
+    
+}
+.social a{
+    text-decoration: none;
+}
+.social i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+   
+
+
+}
+
+.footer-bottom{
+     padding: 10px;
+     background: #3d455f;
+     color: #fff;
+     font-size: 12px;
+     width: 100%;
+     text-align: center;
+
+}
+
+@media (max-width:600px){
+    .footer-items{
+        width: 50%;
+       flex-direction: column;
+      
+        
+
+        
+
+    }
+}

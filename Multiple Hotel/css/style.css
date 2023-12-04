@@ -1,0 +1,50 @@
+.main-top{
+	width: 1024px ;
+	margin:0 auto; 
+	background-color: #918D8D;
+}
+
+.heading-1{
+margin-bottom: 0;
+padding-bottom: 0;
+line-height: 0;
+font-family: 'Raleway', sans-serif;
+}
+.paragraphOfGallery{
+	text-align: center;
+	font-family:'Arial', sans-serif;
+	
+}
+
+.text-1{
+	line-height: 0;
+	font-family:'Raleway', sans-serif;
+}
+.text-2{
+	font-size: 16px;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+}
+.categories{
+
+	font-family:'Raleway', sans-serif;
+	margin-top: 50px;
+	width: 100%;
+	float: left;
+
+}
+
+.food-pictures {
+	float:left;
+	margin-right: 3px;
+	width: 200px;
+}
+
+.food-pictures img{
+	width: 200px;
+	margin right: 3px;
+	border-radius: 8px;
+}
+.dropdown-item{
+	color: #666 !important;
+}
